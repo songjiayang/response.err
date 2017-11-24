@@ -51,7 +51,7 @@ This package just define response error schema but don't contain many errors.
 
 Don't worry, you can custom your error easily.
 
-```
+```golang
 # custom_error.go
 
 import (
@@ -61,7 +61,6 @@ import (
 
 var (
 	CustomErr2     = errros.Error{400, "xxx", "xxx"}
-  CustomErr1     = errros.Error{403, "xxx", "xxxx"}
+  	CustomErr1     = errros.Error{403, "xxx", "xxxx"}
 )
-
 ```
