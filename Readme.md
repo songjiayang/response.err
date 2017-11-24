@@ -36,11 +36,11 @@ When start app and visit `/err` page, you will see responsed message like:
 
 ```json
 {
-code: "InvalidParameter",
-message: "A parameter specified in a request is not valid, is unsupported, or cannot be used.",
-resource: "/err",
-request_id: "5a178eb13d151e8040000002",
-error: ""
+	"code": "InvalidParameter",
+	"message": "A parameter specified in a request is not valid, is unsupported, or cannot be used.",
+	"resource": "/err",
+	"request_id": "5a178eb13d151e8040000002",
+	"error": ""
 }
 ```
 
