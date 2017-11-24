@@ -1,0 +1,21 @@
+{
+    "name": "gogo",
+    "mode": "development",
+    "sections": {
+        "development": {
+            "server": {
+                "addr": "0.0.0.0",
+                "port": 9090,
+                "request_timeout": 30,
+                "response_timeout": 30,
+                "request_id": "X-Request-Id",
+                "ssl": false
+            },
+            "logger": {
+                "output": "stdout",
+                "level": "debug",
+                "filter_params": ["password", "password_confirmation"]
+            }
+        }
+    }
+  }
